@@ -59,22 +59,19 @@ body {
 /* Clase logo */
 .logo {
   /* estilos de logo */
-  width: 100%;
-  max-width: 10rem;
-  height: auto;
+  width: 10rem;
+  height: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: no-wrap;
-  padding: 1rem;
   box-sizing: border-box;
-  background-color: #fff;
 }
 
 .logo__image {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: fill;
 }
 
 /* Clase menu */
@@ -106,17 +103,15 @@ body {
 .banner {
   /* estilos de banner */
   width: 100%;
-  height: 20rem;
-  margin: 0;
-  padding: 0;
+  height: 100%;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .banner__image {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Cambiado de cover a contain */
-  margin: 0;
-  padding: 0;
+  object-fit: contain;
 }
 
 /* Clase content */
@@ -235,15 +230,18 @@ body {
 .footer__logo {
   /* estilos de logo */
   width: 100%;
-  max-width: 20rem;
-  height: auto;
+  max-width: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: no-wrap;
-  padding: 1rem;
   box-sizing: border-box;
-  background-color: #fff;
+}
+
+.footer__logo--image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .footer__info {
