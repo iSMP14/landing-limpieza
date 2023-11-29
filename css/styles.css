@@ -65,14 +65,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: no-wrap;
   box-sizing: border-box;
 }
 
 .logo__image {
   width: 10rem;
   height: 8rem;
-  object-fit: contain;
 }
 
 /* Clase menu */
