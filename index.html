@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./css/styles.css" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/png" href="./src/img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet" />
     <title>Limpieza Integral Lomas</title>
   </head>
   <body>
@@ -17,13 +22,13 @@
         <div class="logo">
           <img class="logo__image" src="./src/img/Logo-Light.svg" alt="logo" />
         </div>
-        <div class="menu">
+        <nav class="menu">
           <ul class="menu__list">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li class="menu__list--item"><a href="#">Inicio</a></li>
+            <li class="menu__list--item"><a href="#">Servicios</a></li>
+            <li class="menu__list--item"><a href="#">Contacto</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
       <div class="banner">
         <img class="banner__image" src="./src/img/banner.svg" alt="banner" />
@@ -35,7 +40,7 @@
         <section class="info">
           <div class="content__box">
             <div class="content__title">
-              <h1>¿Quienes somos?</h1>
+              <h2>¿Quienes somos?</h2>
             </div>
             <div class="content__text">
               <p>
@@ -48,7 +53,7 @@
           </div>
           <div class="content__box">
             <div class="content__title">
-              <h1>¿Por qué elegirnos?</h1>
+              <h2>¿Por qué elegirnos?</h2>
             </div>
             <div class="content__text">
               <p>
@@ -61,7 +66,7 @@
           </div>
           <div class="content__box">
             <div class="content__title">
-              <h1>¿Qué ofrecemos?</h1>
+              <h2>¿Qué ofrecemos?</h2>
             </div>
             <div class="content__text">
               <p>
@@ -77,11 +82,10 @@
         <!-- Servicios  -->
 
         <section class="services">
-          <h1>Servicios</h1>
+          <div class="services__title">
+            <h2>Servicios</h2>
+          </div>
           <div class="services__item">
-            <div class="services__item--image">
-              <img src="src/img/office.svg" alt="office" />
-            </div>
             <div class="services__item--title">
               <h2>Limpieza de oficinas</h2>
             </div>
@@ -94,9 +98,6 @@
             </div>
           </div>
           <div class="services__item">
-            <div class="services__item--image">
-              <img src="src/img/home.svg" alt="home" />
-            </div>
             <div class="services__item--title">
               <h2>Limpieza de casas</h2>
             </div>
@@ -109,9 +110,6 @@
             </div>
           </div>
           <div class="services__item">
-            <div class="services__item--image">
-              <img src="src/img/building.svg" alt="building" />
-            </div>
             <div class="services__item--title">
               <h2>Limpieza de edificios</h2>
             </div>
@@ -124,9 +122,6 @@
             </div>
           </div>
           <div class="services__item">
-            <div class="services__item--image">
-              <img src="src/img/department.svg" alt="department" />
-            </div>
             <div class="services__item--title">
               <h2>Limpieza de departamentos</h2>
             </div>
@@ -150,18 +145,26 @@
         </div>
         <div class="footer__info">
           <div class="footer__info--item">
-            <h2>Redes sociales</h2>
-            <ul>
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Instagram</a></li>
-            </ul>
+            <div class="footer__info--title">
+              <h2>Redes sociales</h2>
+            </div>
+            <div class="footer__links">
+              <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+              </ul>
+            </div>
           </div>
           <div class="footer__info--item">
-            <h2>Contacto</h2>
-            <ul>
-              <li><a href="#">Teléfono</a></li>
-              <li><a href="#">Email</a></li>
-            </ul>
+            <div class="footer__info--title">
+              <h2>Contacto</h2>
+            </div>
+            <div class="footer__links">
+              <ul>
+                <li><a href="#">Teléfono</a></li>
+                <li><a href="#">Email</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </footer>
