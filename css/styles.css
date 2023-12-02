@@ -131,11 +131,12 @@ body {
   width: 100%;
   padding: 1rem;
   box-sizing: border-box;
-  color: var(--color-5);
+  color: var(--color-6);
 }
 
 .menu__list--item:hover {
-  color: var(--color-6);
+  color: var(--color-4);
+  cursor: pointer;
 }
 
 /* Clase banner */
