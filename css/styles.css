@@ -1,4 +1,3 @@
-/* Reset de HTML */
 :root {
   --color-1: #2b427e;
   --color-2: #344986;
@@ -24,15 +23,11 @@ a:visited {
   color: inherit;
 }
 
-/* Resto de las clases del HTML */
-
 body {
   background-color: var(--color-5);
 }
 
-/* Clase container */
 .container {
-  /* estilos de container */
   width: 80%;
   margin: auto;
   max-width: 1200px;
@@ -116,9 +111,7 @@ body {
   gap: 1rem;
 }
 
-/* Clase header */
 .header {
-  /* estilos de header */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -130,9 +123,7 @@ body {
   margin-bottom: 2rem;
 }
 
-/* Clase logo */
 .logo {
-  /* estilos de logo */
   width: auto;
   height: 100%;
   display: flex;
@@ -148,9 +139,7 @@ body {
   object-fit: cover;
 }
 
-/* Clase menu */
 .menu {
-  /* estilos de menu */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -178,9 +167,7 @@ body {
   cursor: pointer;
 }
 
-/* Clase banner */
 .banner {
-  /* estilos de banner */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -196,9 +183,7 @@ body {
   filter: drop-shadow(10px 5px 7px rgba(0, 0, 0, 0.4));
 }
 
-/* Clase content */
 .content {
-  /* estilos de content */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -316,7 +301,6 @@ body {
 }
 
 .footer {
-  /* estilos de footer */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -330,7 +314,6 @@ body {
 }
 
 .footer__logo {
-  /* estilos de logo */
   width: 100%;
   max-width: 10rem;
   display: flex;
@@ -347,7 +330,6 @@ body {
 }
 
 .footer__info {
-  /* estilos de info */
   width: 30rem;
   height: 100%;
   display: flex;
@@ -357,6 +339,7 @@ body {
   box-sizing: border-box;
   background-color: var(--color-5);
 }
+
 .footer__info--title {
   width: 100%;
   height: 100%;
@@ -368,8 +351,8 @@ body {
   color: var(--color-1);
   font-size: small;
 }
+
 .footer__info--item {
-  /* estilos de info */
   width: 100%;
   height: auto;
   display: flex;
@@ -382,7 +365,6 @@ body {
 }
 
 .footer__links {
-  /* estilos de links */
   width: 100%;
   height: auto;
   display: flex;
@@ -400,35 +382,20 @@ body {
   color: var(--color-3);
 }
 
-/* Media Queries */
-
-/* Reset de HTML */
-/* ... (Tu código existente) ... */
-
-/* Media queries para pantallas de tamaño mediano */
 @media only screen and (max-width: 1024px) {
-  /* Estilos para pantallas medianas (hasta 1024px) */
   .container {
-    width: 90%; /* Ejemplo de ajuste de ancho para pantallas medianas */
+    width: 90%;
   }
-
   .main__title {
-    font-size: 2.5rem; /* Ejemplo de ajuste de tamaño de fuente para pantallas medianas */
+    font-size: 2.5rem;
   }
-
-  /* Agrega aquí más ajustes para elementos específicos que necesiten cambios en pantallas medianas */
 }
 
-/* Media queries para pantallas pequeñas (móviles) */
 @media only screen and (max-width: 768px) {
-  /* Estilos para pantallas pequeñas (hasta 768px) */
   .container {
-    width: 100%; /* Ajuste para que ocupe todo el ancho en pantallas pequeñas */
+    width: 100%;
   }
-
   .main__title {
-    font-size: 2rem; /* Reducción adicional del tamaño de fuente para pantallas pequeñas */
+    font-size: 2rem;
   }
-
-  /* Agrega aquí más ajustes para elementos específicos que necesiten cambios en pantallas pequeñas */
 }
