@@ -399,3 +399,36 @@ body {
 .footer_links::hover {
   color: var(--color-3);
 }
+
+/* Media Queries */
+
+/* Reset de HTML */
+/* ... (Tu código existente) ... */
+
+/* Media queries para pantallas de tamaño mediano */
+@media only screen and (max-width: 1024px) {
+  /* Estilos para pantallas medianas (hasta 1024px) */
+  .container {
+    width: 90%; /* Ejemplo de ajuste de ancho para pantallas medianas */
+  }
+
+  .main__title {
+    font-size: 2.5rem; /* Ejemplo de ajuste de tamaño de fuente para pantallas medianas */
+  }
+
+  /* Agrega aquí más ajustes para elementos específicos que necesiten cambios en pantallas medianas */
+}
+
+/* Media queries para pantallas pequeñas (móviles) */
+@media only screen and (max-width: 768px) {
+  /* Estilos para pantallas pequeñas (hasta 768px) */
+  .container {
+    width: 100%; /* Ajuste para que ocupe todo el ancho en pantallas pequeñas */
+  }
+
+  .main__title {
+    font-size: 2rem; /* Reducción adicional del tamaño de fuente para pantallas pequeñas */
+  }
+
+  /* Agrega aquí más ajustes para elementos específicos que necesiten cambios en pantallas pequeñas */
+}
