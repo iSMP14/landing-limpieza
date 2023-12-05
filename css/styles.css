@@ -299,6 +299,40 @@ body {
   padding: 1rem;
 }
 
+.socials__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  flex-wrap: no-wrap;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: var(--color-5);
+  font-family: var(--font-1);
+  color: var(--color-1);
+}
+
+.socials__title {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin: 2rem;
+  padding: 1rem;
+  color: var(--color-1);
+}
+
+.socials__p {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  justify-content: left;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: var(--color-6) 0px 0px 20px 1px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
