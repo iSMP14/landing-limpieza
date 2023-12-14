@@ -118,7 +118,6 @@ body {
 .logo {
   flex-grow: 0.2;
   flex-basis: 12rem;
-  height: 100%;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -131,10 +130,10 @@ body {
 }
 
 .menu {
-  flex-grow: 0.2;
-  flex-basis: 15rem;
+  flex-grow: 1;
+  flex-basis: 8rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   flex-wrap: wrap;
   box-sizing: border-box;
   color: var(--color-1);
@@ -142,11 +141,12 @@ body {
 }
 
 .menu__list {
+  flex-grow: 1;
+  flex-basis: 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: end;
   flex-wrap: wrap;
-  width: 100%;
   gap: 1rem;
   padding: 1rem;
   box-sizing: border-box;
